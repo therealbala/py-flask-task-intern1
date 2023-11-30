@@ -1,0 +1,58 @@
+<html>
+    <head> 
+        <title> Contact Form </title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>        
+    </head>
+    <body class=" bg-dark text-white "  > 
+
+
+        <div class="content m-1 ">
+            <div class="container pt-4 ">
+                <h1 class=" text-center p-2 ">Contact Form </h1>
+            <div class="row border p-4 rounded ">
+                <div class="col-md-5 mr-auto">
+                    <img src="https://media.istockphoto.com/id/1322123064/photo/portrait-of-an-adorable-white-cat-in-sunglasses-and-an-shirt-lies-on-a-fabric-hammock.jpg?s=612x612&w=0&k=20&c=-G6l2c4jNI0y4cenh-t3qxvIQzVCOqOYZNvrRA7ZU5o=" style="border-radius:20px; " width="100%" /> 
+                    <h2 class="mb-5 p-2 ">Please fill the form in the right side ➡️ </h2>
+                     
+                </div>
+            <div class="col-md-6">
+            <form class="mb-5" method="post" id="contactForm" name="contactForm" action="" >
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <label for="name" class="col-form-label">Name</label>
+                        <input type="text" class="form-control" name="name" id="name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <label for="email" class="col-form-label">Email</label>
+                        <input type="text" class="form-control" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <label for="message" class="col-form-label">Message</label>
+                        <textarea class="form-control" name="message" id="message" cols="30" rows="7" required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4 rounded ">
+                    <span class="submitting"></span>
+                    </div>
+                </div>
+            </form>
+            <div id="form-message-warning mt-4"></div>
+            <div id="form-message-success">
+            Your message was sent, thank you!
+            </div>
+            </div>
+            </div>
+            
+        </div>
+
+
+</body> 
+</html> 
